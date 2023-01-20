@@ -1,0 +1,27 @@
+
+$size:20px;
+
+
+.texto_intro{
+    font-family: 'Roboto', sans-serif;
+    font-style:normal ;
+    text-transform: uppercase;
+    text-align: center;
+
+    h1{
+        font-weight: 100;
+        font-size: 35px;
+        color: white;
+        background-color: black;
+        padding-bottom: $size;
+        padding-top: $size;
+    }
+
+    h2{
+        font-weight: bold;
+        font-size: 15px;
+        color:$color;
+        background-color:white;
+        margin-top: $size;   
+    }
+}
